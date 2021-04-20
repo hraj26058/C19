@@ -65,9 +65,9 @@ function setup() {
   createCanvas(windowWidth,windowHeight);
 
   //creating the background1
-  background1 = createSprite(0,0,width,height);
+  background1 = createSprite(0,0,WindowWidth,windowHeight);
   background1.addImage(backgroundImage);
-  background1.scale = 0.5;
+  background1.scale = 1.5;
 
   //creating the player 
   player = createSprite(100, 200, 10, 10);
